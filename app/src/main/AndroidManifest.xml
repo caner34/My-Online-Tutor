@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onlinehocam.ozel.ders.okul">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <!-- Causes compatibility Error -->
+    <!-- <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" /> -->
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudentPurchasedSolutionsActivity"></activity>
+        <activity android:name=".MarketerEarningsPaymentActivity" />
+        <activity android:name=".MarketerShareAppLinkOnSocialMediaActivity" />
+        <activity android:name=".MarketerCommissionLinkDisplayActivity" />
+        <activity android:name=".MarketerHomePageActivity" />
+        <activity android:name=".MarketerRegisterActivity" />
+        <activity android:name=".StudentQuestionRequestDisplayActivity" />
+        <activity android:name=".StudentShoppingCartActivity" />
+        <activity android:name=".PreferencesActivity" />
+        <activity android:name=".StudentPopularQuestionsDisplayActivity" />
+        <activity android:name=".TutorSolutionPostActivity" />
+        <activity android:name=".StudentRegisterActivity" />
+        <activity android:name=".TutorRegisterActivity" />
+        <activity android:name=".ForkForStudentsTutorsActivity" />
+        <activity android:name=".StudentPurchaseActivity" />
+        <activity android:name=".StudentsTutorDiscoveryActivity" />
+        <activity android:name=".StudentPostQuestionActivity" />
+        <activity android:name=".TutorQuestionRequestDisplayActivity" />
+        <activity android:name=".TutorEarningsPaymentActivity" />
+        <activity android:name=".StudentHomePageActivity" />
+        <activity android:name=".TutorHomePageActivity" />
+        <activity android:name=".SignUpLoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

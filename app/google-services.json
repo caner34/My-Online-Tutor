@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881119800691",
+    "firebase_url": "https://online-hocam.firebaseio.com",
+    "project_id": "online-hocam",
+    "storage_bucket": "online-hocam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881119800691:android:61abd64fdba9a6b3992906",
+        "android_client_info": {
+          "package_name": "com.onlinehocam.ozel.ders.okul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881119800691-sc8q2h19pmk9moq9c7u5dltbd3ih43u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onlinehocam.ozel.ders.okul",
+            "certificate_hash": "1b78470620a46302588b2a537954954bcc1bc600"
+          }
+        },
+        {
+          "client_id": "881119800691-4fvk1bjk8vmp3do7a4t1vgacipe5p97h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuCvU77RhuLF3UbENvbYjEfHD8S2C3PWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881119800691-4fvk1bjk8vmp3do7a4t1vgacipe5p97h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

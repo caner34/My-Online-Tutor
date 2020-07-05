@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemUserProfile"
+        android:title="@string/menu_user_profile"
+        />
+
+    <item
+        android:id="@+id/itemPurchasedSolutions"
+        android:title="@string/menu_purchased_solutions"
+        />
+
+    <item
+        android:id="@+id/itemBalance"
+        android:title="@string/menu_balance"
+        />
+
+    <item
+        android:id="@+id/itemLogOut"
+        android:title="@string/menu_log_out"
+        />
+
+
+</menu>
